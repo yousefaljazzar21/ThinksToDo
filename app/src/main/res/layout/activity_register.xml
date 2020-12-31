@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:layout_marginTop="40dp"
+        android:textColor="#fff"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="Create profile to \nstart your first\n ToDo List" />
+
+    <EditText
+        android:id="@+id/nameText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edittext"
+        android:hint="your name"
+        android:padding="16dp"
+        android:textColorHint="#fff"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        />
+
+    <EditText
+        android:id="@+id/passwordText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edittext"
+        android:hint="password"
+        android:padding="16dp"
+        android:textColorHint="#fff"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp" />
+
+    <EditText
+        android:id="@+id/emailText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edittext"
+        android:hint="Your email address"
+        android:padding="16dp"
+        android:textColorHint="#fff"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="24dp"
+        android:background="@drawable/button_gradient"
+        android:onClick="bttn_create"
+        android:padding="16dp"
+        android:text="Create your profile"
+        android:textColorHint="#fff" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:layout_marginTop="30dp"
+        android:textColor="#B8B8B8"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="Already have an account?" />
+
+    <TextView
+        android:onClick="loginText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_marginTop="30dp"
+        android:textColor="#ffffff"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="log in" />
+
+
+
+</LinearLayout>
