@@ -91,7 +91,7 @@
         android:textSize="15sp" />
 
     <TextView
-android:onClick="createTest"
+
         android:id="@+id/createText"
         android:layout_width="211dp"
         android:layout_height="22dp"
