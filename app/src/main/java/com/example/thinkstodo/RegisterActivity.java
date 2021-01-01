@@ -47,7 +47,7 @@ public class RegisterActivity extends AppCompatActivity {
             editText1.requestFocus();
             return;
         }
-        Intent intent = new Intent(this, LoginActivity.class);
+        Intent intent = new Intent(this, HomeActivity.class);
         startActivity(intent);
         finish();
     }
